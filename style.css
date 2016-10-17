@@ -1,0 +1,53 @@
+body{
+  background-image: url("recordplayer.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+  z-index: 2;
+  max-width: 95%;
+}
+#header1{
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size: 5rem;
+}
+
+audio{
+  display: block;
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+#audio-controls{
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#audio-controls i{
+  position: relative;
+  top: 3.5rem;
+  left: 4.5em;
+}
+
+#fastBackward{
+  color: pink;
+  margin-right: 2em;
+}
+
+#fastForward{
+  color: pink;
+  margin-right: 2em;
+}
+
+#speedUp{
+  color: pink;
+  margin-right: 2em;
+
+}
+
+#slowDown{
+  color: pink;
+  margin-right: 2em;
+
+}
